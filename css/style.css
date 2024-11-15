@@ -163,7 +163,7 @@ a {
   height: calc(100vh - 64px);
   transition: 0.9s;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-image: url(../media/landing.jpg);
   margin-top: 64px;
   overflow: hidden;
@@ -226,12 +226,13 @@ video {
   position: relative;
   height: 100%;
   z-index: 2;
+  text-align: center;
 }
 .Landing h1 {
   color: white;
   text-transform: capitalize;
   font-size: 30px;
-  margin-top: 50px;
+  margin-top: 140px;
   position: relative;
 }
 .Landing p {
