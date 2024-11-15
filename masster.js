@@ -132,7 +132,7 @@ if (productList) {
 
       div.innerHTML = `
       <a href="cart.html">
-        <img src="media/product/${item.img}" />
+        <img src="media/product/${item.img}" loading="lazy"/>
         </a>
     <ul>
       ${star}
