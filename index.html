@@ -167,9 +167,20 @@
     <div class="contact" id="contact">
       <h2 class="special-heading">contact</h2>
       <div class="container">
-        <form action="">
-          <input type="email" placeholder="enter your email" />
-          <button class="btn">subscribe</button>
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          class="autoShow"
+        >
+          <!-- Replace with your Access Key -->
+          <input
+            type="hidden"
+            name="access_key"
+            value="16680311-061d-4dbf-b850-a051b1072d2f"
+          />
+          <input type="hidden" name="WEB SITE" value="Peaky Blinders" />
+          <input name="Email" type="email" placeholder="enter your email" />
+          <button class="btn" type="submit">subscribe</button>
         </form>
       </div>
     </div>
